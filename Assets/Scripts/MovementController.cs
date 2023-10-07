@@ -16,6 +16,6 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(direction * Time.deltaTime * speed, Space.World);
+        transform.Translate(direction.normalized * (Time.deltaTime * speed), Space.World);
     }
 }
