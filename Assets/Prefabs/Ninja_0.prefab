@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7400769518537336547}
   - component: {fileID: 5895372595048934802}
   - component: {fileID: 9124760777012346478}
-  - component: {fileID: 1251841661899416304}
+  - component: {fileID: -3523023574001989977}
   m_Layer: 7
   m_Name: Ninja_0
   m_TagString: Enemy
@@ -213,7 +213,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1251841661899416304
+--- !u!114 &-3523023574001989977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,6 +222,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3850897831872138394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb102e11e7140f7aa9d2f97dbd1f346, type: 3}
+  m_Script: {fileID: 11500000, guid: 29d470ed26bb4af2806171ac3722faba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 2522632910363574086, guid: 2240c5d0a69654f25956ab7eaecd1e7e, type: 3}
+  score: 1
