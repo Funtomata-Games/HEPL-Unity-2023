@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2832239603700555411}
   - component: {fileID: 8717837701179006115}
   - component: {fileID: 6308907336696556041}
+  - component: {fileID: 5263533775239558790}
   m_Layer: 7
   m_Name: Ninja_0
   m_TagString: Enemy
@@ -124,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: -1, y: 0}
   speed: 5
+  body: {fileID: 0}
 --- !u!58 &2832239603700555411
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -200,3 +202,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageableTags:
   - Player
+  canKill: 0
+--- !u!114 &5263533775239558790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7069190838933773869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df39a444fa3aa48cc813164930ae543f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 5631579054555772828, guid: ebcd1e9dd716940e3947fe16e6db43e6, type: 3}
+  score: 10
