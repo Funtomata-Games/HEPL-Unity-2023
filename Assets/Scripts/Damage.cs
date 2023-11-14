@@ -17,11 +17,11 @@ public class Damage : MonoBehaviour
     private void KillOrDestroy(GameObject target)
     {
         if (!canKill)
-            Destroy(gameObject);
+            Destroy(target);
         else
         {
             var deathMgr = target.GetComponentInChildren<DeathManager>();
-            if (!deathMgr) Destroy(gameObject);
+            if (!deathMgr) Destroy(target);
             else deathMgr.Kill();
         }
     }

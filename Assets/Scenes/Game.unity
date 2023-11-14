@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 7069190838933773869, guid: 198c9406d049d4a38ba7a9a951457a67, type: 3}
-  spawnInterval: 0.2
+  spawnInterval: 1
   maxSpreadDistance: 4.5
 --- !u!1 &492424437
 GameObject:
