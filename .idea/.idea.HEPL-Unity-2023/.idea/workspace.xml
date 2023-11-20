@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa0c6074-a87f-4a10-a651-38bc0edd5abf" name="Changes" comment="" />
+    <list default="true" id="fa0c6074-a87f-4a10-a651-38bc0edd5abf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HEPL-Unity-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HEPL-Unity-2023/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,9 +11,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37b51751e7a84134841e2b994d9061ab172a00/ec/f821a82e/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +39,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../HEPL Builds/B122023.app/Contents/MacOS/Unity_B14_2023" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../HEPL Builds/B132023.app/Contents/MacOS/Unity_B14_2023" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HEPL Builds/B112023.app/Contents/MacOS" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -94,6 +94,7 @@
       <workItem from="1696250572126" duration="13560000" />
       <workItem from="1696855600134" duration="10500000" />
       <workItem from="1697457065136" duration="36356000" />
+      <workItem from="1700487566320" duration="2232000" />
     </task>
     <servers />
   </component>
