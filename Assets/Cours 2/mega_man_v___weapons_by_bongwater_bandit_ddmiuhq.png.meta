@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -132,22 +145,2109 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcaf77211b5a4206b56a1e546cc6ee1
+      internalID: -544743176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614708801548244b0a8e12397aa7c28e
+      internalID: 1139833056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2bc2171f6114f0d9a2b3e3902df589
+      internalID: -1537042748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d8299113ce64757962afee7406e445
+      internalID: -179811186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a299cb349dd46e59df4d5a55b0027e
+      internalID: 396379208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95de8d341c8f46e394d63c51ef3e31f
+      internalID: -1155264700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81253ea3b8e041d2a47c07ad51a3465
+      internalID: -1542297328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa99a5d7762874b5886c9bcda2c6c698
+      internalID: 2063341279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3952db567f2f6491d9ebee6f02b1a586
+      internalID: -309172135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790aac9302692423aaa78ccd8297f0e4
+      internalID: 1503077321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12017fbb0c40a4542bc6ea8c04623151
+      internalID: -356225217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853563c1fa2d74f9a93344552623a987
+      internalID: 609920223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_12
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b27db5696a490a84823d26f57d517
+      internalID: -2030144336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05da1fdbc9e0d4d2ab30171c2dbb8564
+      internalID: 1112050620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b1c30ec60604650abf0b7b9171411a
+      internalID: -1674517136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff91a70fe1f14e75ba9ae7410dec84a
+      internalID: 1502908256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cfd35d7c4cb442883d16b43f5139e5
+      internalID: 626491000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408ab8be8009a4821a12fc3d77773f5c
+      internalID: 613060926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa984d5042e04ad3ac17479d864bf25
+      internalID: -1083201180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb5314cde9c746349a8eeec9e39af55
+      internalID: 2003312500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 266
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd1688e7d0164b6288f32c8827e6652
+      internalID: -1827089479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 266
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8829e3e5ea4ebeb2f10bb5e61bd75
+      internalID: -801524300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 275
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826b1f159a80845ee8ccaf97d8c43267
+      internalID: -1223630902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 274
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe750a1be15646e0831819675585485
+      internalID: -285538858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 271
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87886109634334a1499962469540cfb9
+      internalID: -1166443389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c33e93c6f0e4b0a8cd44608557b0c3
+      internalID: 1477715885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 237
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e24c74626c4b479f9dd0cb3e74e5a
+      internalID: -170065539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 237
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb68a459fe3244d297e214c0bfca7e7
+      internalID: -1971271872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 246
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec6a7cc0d7c4f689a97850273e281a
+      internalID: 18424521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_29
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 246
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1703dc8abb76f48e295ba08ff4a413ef
+      internalID: -974654749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_30
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 246
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae8e1dda0f514dae92870aefae30495
+      internalID: -1828807465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 243
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fae92c0e4cb4d6797e6bc1db8054bb
+      internalID: 532406679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_32
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 243
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12945d18067eb4ca5a8adf2822220d75
+      internalID: -76970882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 208
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5facf8f93294614acac2426e70786e
+      internalID: -1996052922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_34
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 208
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8033d58f11444dfb55f996ceaa58c0
+      internalID: 1053516706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e58c9f1515b4675b62e094535f9004
+      internalID: 444676756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 216
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b849a7316da6d46308ce5cac7bb3094e
+      internalID: -670136586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 215
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dbd97c5326c47ad8eb898200c892e9
+      internalID: -1572237308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_38
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 214
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9c2e528803440548af70677f80c00d
+      internalID: 671942874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_39
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 180
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6d89373f44347d8bc14952d7569ce8
+      internalID: 364890495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_40
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 180
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb3de447a9a64ba8877cde7842d6e24
+      internalID: 1043585423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_41
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 180
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a30cf891f3b94f47b86393ad7912777
+      internalID: 1929967046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 180
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9f13dee43c24b9b8fecc66cc324659
+      internalID: 811448982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 180
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4730517a9d44481b755726e10b3ca3
+      internalID: 1353994562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_44
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 180
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e791b99bc5d57400182d3eab835ffc31
+      internalID: 1548828527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_45
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e176f310a97d24e02ab635f88e51b7f5
+      internalID: 1368990878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_46
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 180
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551a8be5e241346e392b10ce7a445b97
+      internalID: -1708220217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_47
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 180
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ad42de989a74d9bbcc3b5cef606c88
+      internalID: 35337794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_48
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 152
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45708eaea13e149acaefb915bb3165d7
+      internalID: -2014557479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 152
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71c5387a806143378ce33077031b5e9
+      internalID: 1740915668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_50
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 157
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04693e5d33d6a48e2bc60cf00959dc28
+      internalID: 1706305713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 157
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdb7896e176841b2aa8f2848c5b428b
+      internalID: -421491095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_52
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 157
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485c949442fc941f19b1b4cf79e720c5
+      internalID: 1686789082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_53
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 157
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c6f5ceb31e246ec81cad4572647089
+      internalID: -626679645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_54
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 157
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fd466f72af646ecbb18b18ae617900
+      internalID: -1019997226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 157
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d69532f4f94cecafff7627f962066
+      internalID: 1521634943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_56
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 124
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddd165de748a4c8d964c5d145ad1d7b
+      internalID: -1353802096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 124
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82187804a43764ea18e7a09c43884df0
+      internalID: 1803164587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 126
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a64321f8501445f968b179c025d278
+      internalID: -774896022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2d02b447fe34f07b025d30769f4723
+      internalID: -2027524058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_60
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 129
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a672447f19e47d79aa5f59dc1cefa4
+      internalID: 519779268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_61
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 131
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cff65539abd4d68b6afa96743b17e8
+      internalID: -1783120861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_62
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 133
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8395ff23da5da4e35a7a9f09363df2fc
+      internalID: 2115172263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_63
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 131
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348a8d0f2086d45e5b917c439622cc55
+      internalID: -1524120851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_64
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 130
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a6ab55b7ab4576970110555e550a0
+      internalID: -2052161366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_65
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 95
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d762d0aa83b054af793c881dbe1d1687
+      internalID: 879150553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 95
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2683bc9981ee444e1ae977fa5bd20f38
+      internalID: 1011968298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 95
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645e6adade6a04a5aaa3f34246e9e11e
+      internalID: 1675268525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_68
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 95
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f279dcd60c6a4eeb8b9f276f628fd48
+      internalID: 307277720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_69
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 68
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc23b7fd525347a398842c06b8cb4a8
+      internalID: -1380374367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_70
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 67
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04187071f0c5842dda8b44d502b0271d
+      internalID: -380438922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173359e4f5a7545c1be007a62c875254
+      internalID: -250460787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_72
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 67
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ab51708c8324d0a98477ece4442db8
+      internalID: 734615632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_73
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 67
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b2c0f3eb2bd4418a50d4165673090d
+      internalID: -1081852684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 67
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e1ee7378e34625b8cae327b04f0ad
+      internalID: 1182903918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_75
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 67
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e2f759c349d40dd87cab8317a933fc
+      internalID: 1847779287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_76
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 67
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4a776af1d914a6ab4b8bb493877355
+      internalID: -1330821228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_77
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 67
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b045b5b6e50a476ea1d23ea634d2f87
+      internalID: 737586625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_78
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 67
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bf2670b03134fdaa819fbf95de8a72
+      internalID: -493132837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_79
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b82c242a4cc474bb3604e321b0ec99
+      internalID: -731796453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_80
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33555b9705d94c668674e6eccf097bf
+      internalID: 599859788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_81
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 35
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57da59c7b0765432c9846ca7b2fd346d
+      internalID: 953159933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_82
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 35
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0962359daa4f34d11813786c3aceadbb
+      internalID: 557267124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_83
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 44
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dfe87f7934c443cba3c4826d88b1f9
+      internalID: 131092844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e787f858de146ac8cfe524661a6998
+      internalID: 464148652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_85
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 44
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7016385fa6a641fba92b4f6ec91bde5
+      internalID: 421547122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_86
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 44
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7008fd8775b0e4fcb8e8e296a80897c6
+      internalID: -1880968543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_87
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8798c64654d154bf18c4d13217e01ffd
+      internalID: -1611107031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_88
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b803feeb54c724ab59e2ecde8ff6f5a4
+      internalID: -1634171757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_89
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc25c470f2d184ed2b56ddd41fa84412
+      internalID: -1303336579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_90
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc50960cfb3f418490fc4ba00160507
+      internalID: 1291065299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_91
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2bab44a44d46d2836b590f6c1a94e
+      internalID: 411638647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_92
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddba70c7fd2e94f1798bbac13bd86b93
+      internalID: -622885290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_93
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 5
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb87685812fb4f8ca3a3bd0dcbc0489
+      internalID: -68711803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_94
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c86c92f4b4645b5bf148b717d1babf
+      internalID: 1644599503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_95
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 11
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29a844f1a0d245a4a926524911c9314
+      internalID: 80798195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 15
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03436704588ed4510ba73b236c0e8eed
+      internalID: 1053235979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_97
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 11
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9489e50964aa463aa2e5f6520d26978
+      internalID: -666893869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_98
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 11
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ae150ec2e30471a93c5cce1f6ce59a
+      internalID: 1235244558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_99
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0518b95c173554864ad510e67fb86548
+      internalID: 1034986306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +2258,107 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_0: -544743176
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_1: 1139833056
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_10: -356225217
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_11: 609920223
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_12: -2030144336
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_13: 1112050620
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_14: -1674517136
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_15: 1502908256
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_16: 626491000
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_17: 613060926
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_18: -1083201180
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_19: 2003312500
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_2: -1537042748
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_20: -1827089479
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_21: -801524300
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_22: -1223630902
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_23: -285538858
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_24: -1166443389
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_25: 1477715885
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_26: -170065539
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_27: -1971271872
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_28: 18424521
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_29: -974654749
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_3: -179811186
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_30: -1828807465
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_31: 532406679
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_32: -76970882
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_33: -1996052922
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_34: 1053516706
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_35: 444676756
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_36: -670136586
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_37: -1572237308
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_38: 671942874
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_39: 364890495
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_4: 396379208
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_40: 1043585423
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_41: 1929967046
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_42: 811448982
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_43: 1353994562
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_44: 1548828527
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_45: 1368990878
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_46: -1708220217
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_47: 35337794
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_48: -2014557479
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_49: 1740915668
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_5: -1155264700
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_50: 1706305713
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_51: -421491095
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_52: 1686789082
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_53: -626679645
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_54: -1019997226
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_55: 1521634943
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_56: -1353802096
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_57: 1803164587
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_58: -774896022
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_59: -2027524058
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_6: -1542297328
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_60: 519779268
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_61: -1783120861
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_62: 2115172263
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_63: -1524120851
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_64: -2052161366
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_65: 879150553
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_66: 1011968298
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_67: 1675268525
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_68: 307277720
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_69: -1380374367
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_7: 2063341279
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_70: -380438922
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_71: -250460787
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_72: 734615632
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_73: -1081852684
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_74: 1182903918
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_75: 1847779287
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_76: -1330821228
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_77: 737586625
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_78: -493132837
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_79: -731796453
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_8: -309172135
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_80: 599859788
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_81: 953159933
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_82: 557267124
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_83: 131092844
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_84: 464148652
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_85: 421547122
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_86: -1880968543
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_87: -1611107031
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_88: -1634171757
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_89: -1303336579
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_9: 1503077321
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_90: 1291065299
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_91: 411638647
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_92: -622885290
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_93: -68711803
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_94: 1644599503
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_95: 80798195
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_96: 1053235979
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_97: -666893869
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_98: 1235244558
+      mega_man_v___weapons_by_bongwater_bandit_ddmiuhq_99: 1034986306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

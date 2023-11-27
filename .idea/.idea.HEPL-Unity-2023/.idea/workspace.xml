@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fa0c6074-a87f-4a10-a651-38bc0edd5abf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HEPL-Unity-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HEPL-Unity-2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cours 2/mega_man_v___weapons_by_bongwater_bandit_ddmiuhq.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cours 2/mega_man_v___weapons_by_bongwater_bandit_ddmiuhq.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/DefaultInput.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/DefaultInput.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +15,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37b51751e7a84134841e2b994d9061ab172a00/ec/f821a82e/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Canon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInputEditor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
