@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,11 +6,24 @@ public class MovementController : MonoBehaviour
 {
     public Vector2 direction;
     public int speed;
+    public Rigidbody2D body;
 
     // Update is called once per frame
     void Update()
     {
-        Move();
+        if (!body || body.isKinematic)
+            Move();
+    }
+
+    private void FixedUpdate()
+    {
+        if (body && !body.isKinematic)
+            PhysicsMove();
+    }
+
+    private void PhysicsMove()
+    {
+        body.velocity = speed * direction.normalized;
     }
 
     public void OnDirectionChange(InputAction.CallbackContext context)
