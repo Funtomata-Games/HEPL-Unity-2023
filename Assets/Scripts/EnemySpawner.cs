@@ -15,7 +15,7 @@ public class EnemySpawner : MonoBehaviour
     
     void Spawn()
     {
-        var spawnType = Random.Range(0, enemyToSpawn.Length +1);
+        var spawnType = Random.Range(0, enemyToSpawn.Length);
         var deviation = Random.Range(-maxOffset, maxOffset);
         var spawnPosition = transform.position + new Vector3(0, deviation);
         Instantiate(enemyToSpawn[spawnType], spawnPosition, Quaternion.identity);
