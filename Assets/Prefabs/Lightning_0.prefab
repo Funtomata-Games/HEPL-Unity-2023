@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 7384570827614806603}
   - component: {fileID: 1469771477365784244}
   - component: {fileID: -1482437404241674216}
+  - component: {fileID: 6736601067254497044}
   m_Layer: 6
   m_Name: Lightning_0
   m_TagString: Player
@@ -349,3 +350,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.85364795, y: 0.7982717}
   m_EdgeRadius: 0
+--- !u!114 &6736601067254497044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384780916598256781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75e9f67392a412aa9b4b392183a2adf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
