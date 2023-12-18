@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7471016552281196619}
   - component: {fileID: 3449334372977568591}
   - component: {fileID: 813883565467552780}
+  - component: {fileID: 6939434868293870028}
   m_Layer: 7
   m_Name: Ninja
   m_TagString: Enemy
@@ -202,6 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageableTags:
   - Player
+  isKiller: 1
 --- !u!114 &813883565467552780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,3 +216,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca80032b4cdcb4ceda942f3aadf88bbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6939434868293870028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2699593420059931276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a06c51a0e514054a29de1824dda5e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 5839297671762732007, guid: a17f62a13d831487280eeb358f552504, type: 3}

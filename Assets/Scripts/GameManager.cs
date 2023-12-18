@@ -12,11 +12,11 @@ public static class GameManager
         PlayerPrefs.SetInt("HiScore", hiScore);
         SceneManager.LoadScene(0);
     }
-
     public static void NewGame()
     {
         hiScore = PlayerPrefs.GetInt("HiScore");
         score = 0;
         SceneManager.LoadScene("Game");
     }
+
 }

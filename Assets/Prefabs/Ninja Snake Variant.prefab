@@ -53,6 +53,10 @@ PrefabInstance:
       value: Ninja Snake Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6928999363564118667, guid: 748697189da0a47c6bb9aab9eea57565, type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928999363564118667, guid: 748697189da0a47c6bb9aab9eea57565, type: 3}
       propertyPath: direction.y
       value: 0
       objectReference: {fileID: 0}
