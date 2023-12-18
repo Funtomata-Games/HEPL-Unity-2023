@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8136080323964051332}
   - component: {fileID: 8248061550285964978}
   - component: {fileID: 3103404694050973094}
+  - component: {fileID: 4373712549476347213}
   m_Layer: 7
   m_Name: Ninja
   m_TagString: Enemy
@@ -124,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: -1, y: 0}
   speed: 10
+  body: {fileID: 0}
 --- !u!50 &8136080323964051332
 Rigidbody2D:
   serializedVersion: 4
@@ -200,3 +202,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damagableTags:
   - Player
+  isKiller: 1
+--- !u!114 &4373712549476347213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7507524485368884113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d470ed26bb4af2806171ac3722faba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 4562564780463183657, guid: 2240c5d0a69654f25956ab7eaecd1e7e, type: 3}
+  score: 10
